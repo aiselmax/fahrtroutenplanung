@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_bFgtMMNWEeWgZIjUan9z2Q" name="RootElement">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_y1w2UMNWEeWgZIjUan9z2Q" name="User"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MisHgMNXEeWgZIjUan9z2Q" name="Client" useCase="_bKp2cMNXEeWgZIjUan9z2Q _xRiYkMNYEeWgZIjUan9z2Q _WUEQEMNZEeWgZIjUan9z2Q">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_bKp2cMNXEeWgZIjUan9z2Q" name="Select Warehouse" subject="_MisHgMNXEeWgZIjUan9z2Q">
+      <include xmi:type="uml:Include" xmi:id="_h1wtcMNgEeWgZIjUan9z2Q" addition="_eQllQMNaEeWgZIjUan9z2Q"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_xRiYkMNYEeWgZIjUan9z2Q" name="Start Search" subject="_MisHgMNXEeWgZIjUan9z2Q">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_wCSTAMNfEeWgZIjUan9z2Q" name="ExtensionPoint1"/>
+      <include xmi:type="uml:Include" xmi:id="_4YtV8MNgEeWgZIjUan9z2Q" addition="_WUEQEMNZEeWgZIjUan9z2Q"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WUEQEMNZEeWgZIjUan9z2Q" name="Show Route" subject="_MisHgMNXEeWgZIjUan9z2Q">
+      <include xmi:type="uml:Include" xmi:id="_iZAkcMNgEeWgZIjUan9z2Q" addition="_-kntUMNaEeWgZIjUan9z2Q"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2GoUsMNXEeWgZIjUan9z2Q" memberEnd="_2GvCYMNXEeWgZIjUan9z2Q _2GvCYcNXEeWgZIjUan9z2Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2GqJ4MNXEeWgZIjUan9z2Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2GqJ4cNXEeWgZIjUan9z2Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2GvCYMNXEeWgZIjUan9z2Q" name="usecase1" type="_bKp2cMNXEeWgZIjUan9z2Q" association="_2GoUsMNXEeWgZIjUan9z2Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2GvCYcNXEeWgZIjUan9z2Q" name="user" type="_y1w2UMNWEeWgZIjUan9z2Q" association="_2GoUsMNXEeWgZIjUan9z2Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_61sPYMNYEeWgZIjUan9z2Q" memberEnd="_61s2csNYEeWgZIjUan9z2Q _61s2c8NYEeWgZIjUan9z2Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_61s2cMNYEeWgZIjUan9z2Q" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_61s2ccNYEeWgZIjUan9z2Q" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_61s2csNYEeWgZIjUan9z2Q" name="start search" type="_xRiYkMNYEeWgZIjUan9z2Q" association="_61sPYMNYEeWgZIjUan9z2Q"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_61s2c8NYEeWgZIjUan9z2Q" name="user" type="_y1w2UMNWEeWgZIjUan9z2Q" association="_61sPYMNYEeWgZIjUan9z2Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_pH4UYMNZEeWgZIjUan9z2Q" client="_WUEQEMNZEeWgZIjUan9z2Q" supplier="_bKp2cMNXEeWgZIjUan9z2Q"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ZxY2EMNaEeWgZIjUan9z2Q" name="Server" useCase="_eQllQMNaEeWgZIjUan9z2Q _-kntUMNaEeWgZIjUan9z2Q">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_eQllQMNaEeWgZIjUan9z2Q" name="Get All Names" subject="_ZxY2EMNaEeWgZIjUan9z2Q"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_-kntUMNaEeWgZIjUan9z2Q" name="Get Route" subject="_ZxY2EMNaEeWgZIjUan9z2Q"/>
+  </packagedElement>
+</uml:Model>

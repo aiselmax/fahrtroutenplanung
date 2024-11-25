@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="FAP-2/builds/Server_user.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/FAP-2/builds/Server_user.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal>
+                <package handleIdentifier="=FAP-2/src&lt;backend"/>
+                <package handleIdentifier="=FAP-2/thirdparty\/src&lt;DirectedGraph"/>
+            </packagesToSeal>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <javaElement handleIdentifier="=FAP-2/src&lt;backend"/>
+        <javaElement handleIdentifier="=FAP-2/thirdparty\/src"/>
+    </selectedElements>
+</jardesc>

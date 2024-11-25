@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="FAP-2/builds/Server_developer.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/FAP-2/builds/Server_developer.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=FAP-2/src&lt;backend{Server.java[Server" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <folder path="/FAP-2/models"/>
+        <folder path="/FAP-2/doc"/>
+        <javaElement handleIdentifier="=FAP-2/src"/>
+        <folder path="/FAP-2/thirdparty"/>
+        <folder path="/FAP-2/documentation"/>
+        <file path="/FAP-2/.classpath"/>
+        <file path="/FAP-2/graph.ser"/>
+        <javaElement handleIdentifier="=FAP-2/thirdparty\/src"/>
+        <file path="/FAP-2/.project"/>
+        <folder path="/FAP-2/scripts"/>
+        <javaElement handleIdentifier="=FAP-2/tests"/>
+    </selectedElements>
+</jardesc>

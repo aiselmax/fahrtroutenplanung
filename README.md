@@ -1,0 +1,1 @@
+Ein Netzwerk von über Wege verbundenen Lagern ist ein spezieller Graph.Benannte Lager repräsentieren Knoten, Wegverbindungen Kanten. Der Fahrtroutenplaner soll dazu dienen ab einem bestimmten Lager eine Strecke zu ermitteln, welche durch alle weiteren Lager führt und nach Möglichkeit die kürzeste Strecke ermittelt.
